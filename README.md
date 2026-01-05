@@ -1,5 +1,5 @@
 # RoommatePairSystem
-宿舍室友互選系統
+K大室友互選系統
 
 
 ## 資料庫結構
