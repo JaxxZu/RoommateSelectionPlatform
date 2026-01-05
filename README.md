@@ -11,4 +11,4 @@ PHP 7.4
 MySQL 5.7  
 
 
-本項目使用 PHPMailer ，基於 PHP License 授權。
+本項目使用 [PHPMailer](https://github.com/PHPMailer/PHPMailer) ，基於 LGPL-2.1 授權。
