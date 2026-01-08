@@ -21,5 +21,14 @@
 PHP 7.4  
 MySQL 5.7  
 
+## 安裝與部署
+
+將所有檔案上傳至伺服器根目錄。  
+匯入資料庫檔案 rsp(2)(2).sql 至 MySQL 資料庫 rsp。  
+修改 connect.php 中的資料庫連線資訊（目前為硬編碼，請依實際環境調整）。  
+設定 Nginx 指向根目錄，並確保 PHP 正常運作。    
+管理員帳號：admin，初始密碼請參考資料庫 user 表或自行設定。     
+學生首次登入密碼為 masked_id 的 MD5 值（由管理員匯入時自動產生）。  
+
 
 本項目使用 [PHPMailer](https://github.com/PHPMailer/PHPMailer) ，基於 LGPL-2.1 授權。
